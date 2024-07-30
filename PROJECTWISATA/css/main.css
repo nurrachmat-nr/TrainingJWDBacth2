@@ -1,0 +1,68 @@
+.video-area {
+  padding: 200px 0 60px 0;
+  position: relative;
+  background: url(./img/pindang.jpeg) no-repeat center center/cover;
+}
+
+.video-area .overlay-bg {
+  opacity: 0.9;
+}
+
+.video-area .video-content {
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+
+.video-area .video-content a {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.video-area .video-content h3 {
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+}
+
+.video-area .video-content h4 {
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.video-area .video-content .video-desc {
+  margin-top: 120px;
+  text-align: right;
+  align-self: flex-end;
+}
+
+.footer-area {
+  padding-top: 100px;
+  background-color: #222222;
+}
+.section-gap {
+  padding: 120px 0;
+}
+
+.footer-social a {
+  padding-right: 25px;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.footer-social i {
+  color: #cccccc;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+@media (max-width: 991px) {
+  .footer-social {
+    text-align: left;
+  }
+}
